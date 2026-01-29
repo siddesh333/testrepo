@@ -29,12 +29,12 @@ This integration is a two-step process:
 ## 🎯 Asset Naming Convention
 
 The folder name should follow the HP Asset Naming Convention:
-- Refer to: 
-https://pages.github.azc.ext.hp.com/SW-R-D-Architecture/architecture/architecture/hpip/overview/#model
-https://pages.github.azc.ext.hp.com/SW-R-D-Architecture/architecture/adrs/ARCH-1886/#naming-convention
+- Refer to:
+  https://pages.github.azc.ext.hp.com/SW-R-D-Architecture/architecture/architecture/hpip/overview/#model
+  https://pages.github.azc.ext.hp.com/SW-R-D-Architecture/architecture/adrs/ARCH-1886/#naming-convention
 
 - Example: `hpip-devex-infra`
-- Format typically follows: `Structure : hpip.{area}.{category}.{asset}.{sub-asset}
+- Format typically follows: hpip.{area}.{category}.{asset}.{sub-asset}
 
 
 ## 📁 Directory Structure
@@ -233,6 +233,7 @@ Once the IAM role is created in AWS, the integration will be fully functional an
 - [Terragrunt Documentation](https://terragrunt.gruntwork.io/)
 - [HPIP Architecture Overview](https://pages.github.azc.ext.hp.com/SW-R-D-Architecture/architecture/architecture/hpip/overview/)
 - [Asset Naming Convention](https://pages.github.azc.ext.hp.com/SW-R-D-Architecture/architecture/adrs/ARCH-1886/#naming-convention)
+- [Documentation Navigation Structure](../../nav.yml)
 
 ## 🤝 Support
 
