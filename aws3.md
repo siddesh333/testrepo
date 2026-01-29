@@ -172,7 +172,7 @@ After successful pipeline execution and Terragrunt apply:
 
 <img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/ed54163b-8c2f-4eb7-a62d-e9fffc2b0bad" />
 
-3. The External ID will be provided to create an IAM role in the AWS account
+3. Use the External ID in step 1 to create an IAM role in the AWS account
 
 **Important**: The External ID is a security credential that ensures only authorized Datadog integration can assume the AWS role.
 
@@ -239,6 +239,7 @@ For questions or issues:
 1. Check the repository README.md
 2. Review existing AWS integration examples in other service categories
 3. Contact the team or your service category team lead
+
 
 
 
