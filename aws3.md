@@ -10,6 +10,8 @@ Before starting, ensure you have:
 - AWS regions to monitor
 - AWS namespaces to monitor (e.g., AWS/SNS, AWS/Lambda, AWS/RDS)
 - Access to this repository https://github.azc.ext.hp.com/onecloud/hpip-devex-apm-tf-datadog/tree/master/hpip-tio
+     (Note : To gain access you must have a team in oncloud org, if not present submit a request to get a team) 
+     
 
 ## 🔄 Integration Workflow
 
@@ -237,6 +239,7 @@ For questions or issues:
 1. Check the repository README.md
 2. Review existing AWS integration examples in other service categories
 3. Contact the team or your service category team lead
+
 
 
 
