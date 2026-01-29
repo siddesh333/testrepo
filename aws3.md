@@ -185,6 +185,8 @@ https://github.azc.ext.hp.com/runway-incubator/hpip-devex-runway-terraform-datad
 
 This module will:
 - Create an IAM role in the AWS account with a trust policy
+- Configure the trust relationship using the External ID
+- Attach the necessary permissions policies for Datadog monitoring
 
 Once the IAM role is created in AWS, the integration will be fully functional and Datadog can begin monitoring the AWS account.
 
@@ -235,6 +237,7 @@ For questions or issues:
 1. Check the repository README.md
 2. Review existing AWS integration examples in other service categories
 3. Contact the team or your service category team lead
+
 
 
 
