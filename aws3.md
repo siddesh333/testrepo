@@ -22,8 +22,6 @@ This integration is a two-step process:
 2. **AWS IAM Role Creation**:
    - The External ID will be provided for creating an IAM role in the AWS account
    - Use the [integrations-aws-iam-role](https://github.azc.ext.hp.com/runway-incubator/hpip-devex-runway-terraform-datadog/tree/master/modules/integrations-aws-iam-role) module
-   - Configure trust policy with the External ID
-   - Apply appropriate monitoring permissions
 
 ## 🎯 Asset Naming Convention
 
@@ -237,6 +235,7 @@ For questions or issues:
 1. Check the repository README.md
 2. Review existing AWS integration examples in other service categories
 3. Contact the team or your service category team lead
+
 
 
 
