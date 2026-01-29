@@ -112,7 +112,6 @@ inputs = {
     # "AWS/RDS",
     # "AWS/DynamoDB",
     # "AWS/ECS",
-    # "AWS/EC2",
     # "AWS/S3",
   ]
 }
@@ -240,5 +239,6 @@ For questions or issues:
 1. Check the repository README.md
 2. Review existing AWS integration examples in other service categories
 3. Contact the team or your service category team lead
+
 
 
