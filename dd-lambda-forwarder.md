@@ -32,7 +32,7 @@ S3 Bucket (afu-access-logs--processed)
 - **Secret ARN**: `arn:aws:secretsmanager:us-west-2:405675796529:secret:dd-api-afu-logs-vZIJi4`
 - **Secret Format**: Plain text API key (not JSON)
   ```
-  19385a1ec63c2d617c56c5304b0d266b
+  1***************17c6b
   ```
 
 ### Datadog Configuration
