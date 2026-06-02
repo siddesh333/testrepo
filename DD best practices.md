@@ -8,7 +8,7 @@ Flex Logs compute has hard limits on:
  
 When the concurrent query limit is reached, Datadog will throttle/slow down new queries and may ask you to retry later; if no “slot” becomes available, the query won’t run and you’ll see the error.
 
-Common causes we see
+**Common causes we see**
 
 Many users querying at the same time (especially during incidents).
 Dashboards hammering logs repeatedly (auto-refresh + short time windows = frequent refresh). Datadog itself notes dashboards can be a top source of slowdowns. 
