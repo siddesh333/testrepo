@@ -22,6 +22,8 @@ Start with Past 15 minutes or Past 1 hour, then expand only if needed
 Stop continuous updates
 Pause live updates: when not needed (click the Pause(||) button control in the Log Explorer UI) so the page doesn’t keep issuing queries in the background. (UI behavior visible in Log Explorer; see screenshot section below.)  so the page doesn’t keep refreshing and consuming Flex compute in the background.
 
+<img width="987" height="211" alt="image" src="https://github.com/user-attachments/assets/f04d1fbd-2b1d-44d6-ba9b-275aab71d732" />
+
 
 
 ❌ Avoid
@@ -31,6 +33,7 @@ Avoid Live Tail unless needed: Live Tail is for near real-time streaming during 
 Running broad searches across large time windows (increases scanned volume and compute usage)
 Keeping multiple tabs/dashboards open that continuously refresh and query Flex Logs (increases concurrent query usage)
 
+<img width="885" height="201" alt="image" src="https://github.com/user-attachments/assets/0799078e-84e2-4e28-8436-76fc9164a796" />
 
  
 
@@ -42,7 +45,13 @@ Dashboards can be a major source of slowdowns, and Datadog recommends improving 
 1) Pause auto-refresh for dashboards that don’t require live updates
 Datadog provides a dashboard setting “Pause Auto-Refresh” that “optimizes compute usage and reduces background activity” and applies to all users viewing that dashboard.
 
+<img width="1598" height="485" alt="image" src="https://github.com/user-attachments/assets/534c17d6-72e2-4f9b-b096-9c22f5b0b4a9" />
+
+
 
 2) Use collapsed widget groups for heavy sections
 Datadog recommends organizing widgets into groups and keeping them collapsed until needed—collapsed groups do not load when the dashboard is opened.
+
+<img width="1585" height="774" alt="image" src="https://github.com/user-attachments/assets/ae54869b-0a66-4893-b596-285ae30c8520" />
+
 
