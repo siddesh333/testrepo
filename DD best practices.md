@@ -1,6 +1,6 @@
 # Datadog Best Practices for Log Explorer and Dashboard creation (Users)
 
-What this error means “Your current query request volume is exceeding the concurrent query capacity of the selected Flex Compute tier…”
+**What this error means “Your current query request volume is exceeding the concurrent query capacity of the selected Flex Compute tier…”**
 
 Flex Logs compute has hard limits on:
  - No of concurrent queries, and
