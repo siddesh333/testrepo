@@ -30,10 +30,10 @@ When the concurrent query limit is reached, Datadog will throttle/slow down new 
 
 ❌ Avoid
 
-Leaving Log Explorer open in Live/Live Tail when you are not actively debugging
-Avoid Live Tail unless needed: Live Tail is for near real-time streaming during active investigations—please don’t keep it open when not required.
-Running broad searches across large time windows (increases scanned volume and compute usage)
-Keeping multiple tabs/dashboards open that continuously refresh and query Flex Logs (increases concurrent query usage)
+- Leaving Log Explorer open in Live/Live Tail when you are not actively debugging
+- Avoid Live Tail unless needed: Live Tail is for near real-time streaming during active investigations—please don’t keep it open when not required.
+- Running broad searches across large time windows (increases scanned volume and compute usage)
+- Keeping multiple tabs/dashboards open that continuously refresh and query Flex Logs (increases concurrent query usage)
 
 <img width="885" height="201" alt="image" src="https://github.com/user-attachments/assets/0799078e-84e2-4e28-8436-76fc9164a796" />
 
