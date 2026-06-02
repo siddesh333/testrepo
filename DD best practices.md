@@ -27,6 +27,7 @@ When the concurrent query limit is reached, Datadog will throttle/slow down new 
 
 
 
+
 ❌ Avoid
 
 Leaving Log Explorer open in Live/Live Tail when you are not actively debugging
