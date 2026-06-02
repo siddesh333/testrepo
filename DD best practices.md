@@ -47,13 +47,13 @@ Dashboards can be a major source of slowdowns, and Datadog recommends improving 
 1) Pause auto-refresh for dashboards that don’t require live updates
 Datadog provides a dashboard setting “Pause Auto-Refresh” that “optimizes compute usage and reduces background activity” and applies to all users viewing that dashboard.
 
-<img width="1598" height="485" alt="image" src="https://github.com/user-attachments/assets/534c17d6-72e2-4f9b-b096-9c22f5b0b4a9" />
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/534c17d6-72e2-4f9b-b096-9c22f5b0b4a9" />
 
 
 
 2) Use collapsed widget groups for heavy sections
 Datadog recommends organizing widgets into groups and keeping them collapsed until needed—collapsed groups do not load when the dashboard is opened.
 
-<img width="1585" height="774" alt="image" src="https://github.com/user-attachments/assets/ae54869b-0a66-4893-b596-285ae30c8520" />
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/ae54869b-0a66-4893-b596-285ae30c8520" />
 
 
